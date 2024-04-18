@@ -1,0 +1,17 @@
+{
+  "name": "be-middleware-validation-sanitization",
+  "version": "1.0.0",
+  "description": "In this particular exercise, you will be writing Express middleware to validate that a user is above 18, and to sanitize the user input.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
