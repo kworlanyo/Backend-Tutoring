@@ -1,0 +1,20 @@
+{
+  "name": "2024.05.08",
+  "version": "1.0.0",
+  "description": "We will practice error handling by making an API for a small bank.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "node --watch --env-file=.env index.js",
+    "devSeed": "node --env-file=.env seeder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.3.4"
+  }
+}
